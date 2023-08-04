@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #d0cbf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* "width: 200px; height: 50px; border-radius: 5px; border: 0.50px #7A58F4 solid; background: #1A1832" */
+.main_button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0.50px #7a58f4 solid;
+  background: #1a1832;
+}
+
+.main_button:hover {
+  background: #7a58f4;
+  border: 0.50px #1a1832 solid;
+  cursor: pointer;
+}
+
+/* "text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word" */
+.main_button_text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+/* width: 920px; height: 444px; background: #1A1832; box-shadow: 0px 10px 25px -15px rgba(0, 0, 0, 0.25); border-radius: 20px */
+.card {
+  width: 920px;
+  height: 444px;
+  background: #1a1832;
+  box-shadow: 0px 10px 25px -15px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 0 3.5rem;
+}
+
+/* style="width: 630px; text-align: center; color: white; font-size: 26px; font-family: Merriweather; font-weight: 700; line-height: 36px; word-wrap: break-word" */
+.heading {
+  width: 630px;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  font-family: Merriweather;
+  font-weight: 700;
+  line-height: 36px;
+  word-wrap: break-word;
+}
+
+.center_container {
+  display: flex;
+  justify-content: center;
+  align-self: stretch;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.rating {
+  display: flex;
+  align-self: normal;
+  justify-content: space-between;
+}
+
+/* "width: 60px; height: 60px; background: #1A2036; box-shadow: 0px 10px 25px -15px #111628; border-radius: 10px; border: 0.50px #2E3650 solid" */
+.rating_box {
+  width: 60px;
+  height: 60px;
+  background: #1a2036;
+  box-shadow: 0px 10px 25px -15px #111628;
+  border-radius: 10px;
+  border: 0.50px #2e3650 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating_box:hover {
+  background: #7a58f4;
+  border: 0.50px #1a1832 solid;
+  cursor: pointer;
+}
+
+.selected {
+  background: #7a58f4;
+  border: 0.50px #1a1832 solid;
+}
+
+/* "text-align: center; color: #B1B9D8; font-size: 28px; font-family: Inter; font-weight: 400; word-wrap: break-word" */
+.rating_number {
+  text-align: center;
+  color: #b1b9d8;
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.text_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  align-self: stretch;
+}
+
+/* "text-align: center; color: #E7E7E7; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word" */
+.text {
+  text-align: center;
+  color: #e7e7e7;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.submit_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+/* "width: 144px; height: 44px; border-radius: 5px; border: 0.50px #7A58F4 solid" */
+.cancel_button {
+  width: 144px;
+  height: 44px;
+  border-radius: 5px;
+  border: 0.50px #7a58f4 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a1832;
+}
+
+.cancel_button:hover {
+  background: #7a58f4;
+  border: 0.50px #1a1832 solid;
+  cursor: pointer;
+}
+
+/* "text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word" */
+.submit_button_text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+/* "width: 144px; height: 44px; background: #7A58F4; border-radius: 5px" */
+.submit_button {
+  width: 144px;
+  height: 44px;
+  background: #7a58f4;
+  border-radius: 5px;
+  border: 0.50px #1a1832 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit_button:hover {
+  background: #1a1832;
+  border: 0.50px #7a58f4 solid;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+/* write your CSS here */
